@@ -1,7 +1,6 @@
 # Hoverfly Cloud Foundry Experiment
 
-
-## Dependencies
+## Dependencies
 
 - [Cloud Foundry CLI](https://github.com/cloudfoundry/cli)
 - [Hoverfly](https://github.com/SpectoLabs/hoverfly):
@@ -11,7 +10,7 @@ brew install cloudfoundry/tap/cf-cli
 brew install SpectoLabs/tap/hoverfly
 ```
 
-## Get the latest Hoverfly Linux 64bit binary
+## Get the latest Hoverfly Linux 64bit binary
 
 Before proceeding, get the latest Linux 64bit binary:
 
@@ -20,7 +19,7 @@ Before proceeding, get the latest Linux 64bit binary:
 chmod +x hoverfly
 ```
 
-## Hoverfly serving a "simulation" on $PORT
+## Hoverfly serving a "simulation" on $PORT
 
 A website was [captured](https://docs.hoverfly.io/en/latest/pages/keyconcepts/modes/capture.html) using a local instance of Hoverfly and the resulting "simulation" was exported to a JSON file (`simulation.json`).
 
@@ -82,7 +81,7 @@ The page takes over 5 seconds to load, and the middleware webserver log output s
 2017-10-02T17:08:27.91+0100 [APP/PROC/WEB/0] OUT Delaying response by 5s
 ```
 
-## Hoverfly serving the admin API on $PORT
+## Hoverfly serving the admin API on $PORT
 
 Hoverfly requires two open ports: one for serving the simulation and the other for serving the admin API and the web UI.
 
