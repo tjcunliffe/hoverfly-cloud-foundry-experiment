@@ -1,0 +1,9 @@
+/log/*.log
+.vscode/
+results.bin
+get-hoverfly-linux-amd64.sh
+hoverfly-admin.yml
+hoverfly.yml
+config.yaml
+README.md
+LICENSE

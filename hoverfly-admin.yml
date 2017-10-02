@@ -1,0 +1,6 @@
+---
+applications:
+  - name: hoverfly-admin
+    buildpack: binary_buildpack
+    memory: 64M
+    command: ./hoverfly -webserver -ap $PORT -import simulation.json

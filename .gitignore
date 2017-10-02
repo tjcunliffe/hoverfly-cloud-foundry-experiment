@@ -1,0 +1,6 @@
+hoverfly
+/log/*.log
+.vscode/
+.DS_Store
+results.bin
+config.yaml
