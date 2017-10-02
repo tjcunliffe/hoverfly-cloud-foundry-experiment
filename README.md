@@ -1,15 +1,14 @@
 # Hoverfly Cloud Foundry Experiment
 
-
 ## Dependencies
 
-This experiment requires the [Cloud Foundry CLI](https://github.com/cloudfoundry/cli) and [Hoverfly](https://github.com/SpectoLabs/hoverfly):
+- [Cloud Foundry CLI](https://github.com/cloudfoundry/cli)
+- [Hoverfly](https://github.com/SpectoLabs/hoverfly):
 
 ```
 brew install cloudfoundry/tap/cf-cli
 brew install SpectoLabs/tap/hoverfly
 ```
-
 ## Get the latest Hoverfly Linux 64bit binary
 
 Before proceeding, get the latest Linux 64bit binary:
@@ -80,7 +79,6 @@ The page takes over 5 seconds to load, and the middleware webserver log output s
 ```
 2017-10-02T17:08:27.91+0100 [APP/PROC/WEB/0] OUT Delaying response by 5s
 ```
-
 ## Hoverfly serving the admin API on $PORT
 
 Hoverfly requires two open ports: one for serving the simulation and the other for serving the admin API and the web UI.
