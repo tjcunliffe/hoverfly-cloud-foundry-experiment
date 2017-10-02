@@ -2,8 +2,7 @@
 .vscode/
 results.bin
 get-hoverfly-linux-amd64.sh
-hoverfly-admin.yml
-hoverfly.yml
+manifests/
 config.yaml
 README.md
 LICENSE
