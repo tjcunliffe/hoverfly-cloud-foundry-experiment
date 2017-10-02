@@ -1,0 +1,6 @@
+---
+applications:
+  - name: hoverfly-middleware
+    buildpack: binary_buildpack
+    memory: 64M
+    command: ./hoverfly -webserver -pp $PORT -import simulation.json -middleware https://fixed-delay-middleware.cfapps.io/process
